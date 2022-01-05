@@ -20,7 +20,6 @@ INDEX VERSION 1.131+D:\Arun Project\.metadata\.plugins\org.eclipse.jdt.core
 1011428889.index
 2627247731.index
 2896845916.index
-1075660291.index
 1540421213.index
 1032881515.index
 1607588888.index
