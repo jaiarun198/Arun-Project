@@ -1,0 +1,29 @@
+package Arun19.com;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xddf.usermodel.text.CapsType;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+
+
+public class Dataexcell{
+	
+	public static void aa() throws IOException {
+	
+		FileInputStream fis = new FileInputStream("C:\\Users\\Jai\\Desktop\\Book1.xlsx");
+		Workbook workbook = new XSSFWorkbook(fis);
+		Sheet sheet = workbook.getSheetAt(0);
+		
+	}
+		public static void main(String[] args) throws IOException {
+			
+			aa();
+		}}

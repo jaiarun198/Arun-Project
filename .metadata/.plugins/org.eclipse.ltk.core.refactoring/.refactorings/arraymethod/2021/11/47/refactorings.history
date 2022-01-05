@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.array&apos; to &apos;adstraction/src&apos;&#x0D;&#x0A;- Original project: &apos;arraymethod&apos;&#x0D;&#x0A;- Destination element: &apos;adstraction/src&apos;&#x0D;&#x0A;- Original element: &apos;arraymethod/src/com.array&apos;" description="Copy package" destination="=adstraction/src" element1="/src&lt;com.array" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1636953358817" version="1.0"/>
+</session>

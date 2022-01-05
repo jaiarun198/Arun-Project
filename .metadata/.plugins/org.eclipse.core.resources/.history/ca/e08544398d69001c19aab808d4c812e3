@@ -1,0 +1,55 @@
+package Arun19.com;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xddf.usermodel.text.CapsType;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+
+
+public class Dataexcell
+{
+	
+	public static void main(String[] args) throws IOException {
+		FileInputStream fis = new FileInputStream("C:\\Users\\Jai\\Desktop\\Book1.xlsx");
+		Workbook workbook = new XSSFWorkbook(fis);
+		Sheet sheet = workbook.getSheetAt(0);
+		int lastRow = sheet.getLastRowNum();
+		System.out.println(lastRow);
+		for(int i=0; i<=lastRow; i++){
+		Row row = sheet.getRow(i);
+		int lastCell = row.getPhysicalNumberOfCells();
+		for(int j=0; j<lastCell; j++){
+		Cell cell = row.getCell(j);
+		CellType c =  cell.getCellType();
+		if(c.equals(c.STRING)) {
+			
+		String value = cell.getStringCellValue();
+		
+		System.out.print(" "+value);
+		
+		}
+		
+		else if (c.equals(CellType.NUMERIC)) {
+			double n = cell.getNumericCellValue();
+					long l = (long)n;
+					
+					System.out.print(" "+l);
+					
+				
+					
+		}
+		System.out.print(" ");
+		System.out.print(" ");
+	
+		
+		}
+		}
+	}}

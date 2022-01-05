@@ -1,0 +1,23 @@
+ackage frameworks;
+
+import org.openqa.selenium.support.PageFactory;
+
+import element.E1;
+
+
+public class Mainclass extends Baseclass {
+
+		public static void main(String[] args) {
+			
+			getdriver("chrome");
+            geturl(url);
+			max();		
+			PageFactory.initElements(driver, E1.class);
+			clicks(signin);
+			sk(username,"arunrock006@gamil.com");
+			sk(password,"jai@6622");
+			clicks(login);
+			
+		}
+}
+

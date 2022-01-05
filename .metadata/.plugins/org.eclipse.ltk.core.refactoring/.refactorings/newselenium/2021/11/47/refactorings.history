@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.sele&apos; to &apos;bank/src&apos;&#x0D;&#x0A;- Original project: &apos;newselenium&apos;&#x0D;&#x0A;- Destination element: &apos;bank/src&apos;&#x0D;&#x0A;- Original element: &apos;newselenium/src/com.sele&apos;" description="Copy package" destination="=bank/src" element1="/src&lt;com.sele" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1636955330743" version="1.0"/>
+</session>

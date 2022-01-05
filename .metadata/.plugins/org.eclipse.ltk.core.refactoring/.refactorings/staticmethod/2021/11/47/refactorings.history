@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Samplejava.java&apos; to &apos;bank/src&apos;&#x0D;&#x0A;- Original project: &apos;staticmethod&apos;&#x0D;&#x0A;- Destination element: &apos;bank/src&apos;&#x0D;&#x0A;- Original element: &apos;com.preatisesststic.Samplejava.java&apos;" description="Copy compilation unit" destination="=bank/src" element1="/src&lt;com.preatisesststic{Samplejava.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1636955221282" units="1" version="1.0"/>
+</session>
